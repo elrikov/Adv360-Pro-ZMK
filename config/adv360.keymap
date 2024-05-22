@@ -40,14 +40,7 @@
     macros {
     };
 
-    combos {
-        compatible = "zmk,combos";
-
-        Test1 {
-            bindings = <&Test1>;
-            key-positions = <35 33>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
