@@ -46,8 +46,7 @@
         Combo-Test {
             bindings = <&Test1>;
             key-positions = <35 33>;
-            timeout-ms = <1>;
-            require-prior-idle-ms = <1>;
+            timeout-ms = <50>;
         };
     };
 
