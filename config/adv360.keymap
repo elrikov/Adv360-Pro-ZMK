@@ -40,7 +40,16 @@
     macros {
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        Combo-Test {
+            bindings = <&Test1>;
+            key-positions = <35 33>;
+            timeout-ms = <1>;
+            require-prior-idle-ms = <1>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
